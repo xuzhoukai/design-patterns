@@ -17,5 +17,7 @@ public class App
         observable.setChanged();
         System.out.println(observable.hasChanged());
         observable.notifyObservers("hello");
+        observable.clearChanged();
+        System.out.println(observable.hasChanged());
     }
 }

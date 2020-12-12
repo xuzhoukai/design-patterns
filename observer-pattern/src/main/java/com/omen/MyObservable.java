@@ -8,4 +8,9 @@ public class MyObservable extends Observable {
     protected synchronized void setChanged() {
         super.setChanged();
     }
+
+    @Override
+    protected synchronized void clearChanged() {
+        super.clearChanged();
+    }
 }
