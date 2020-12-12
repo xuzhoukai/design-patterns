@@ -10,6 +10,7 @@
   <modules>
     <module>proxy-pattern</module>
     <module>factory-pattern</module>
+    <module>observer</module>
   </modules>
 
   <packaging>pom</packaging>

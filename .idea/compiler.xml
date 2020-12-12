@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="factory-pattern" />
         <module name="proxy-pattern" />
+        <module name="observer-pattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="design-patterns" target="1.8" />
       <module name="factory-pattern" target="1.8" />
+      <module name="observer-pattern" target="1.7" />
       <module name="proxy-pattern" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -21,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="factory-pattern" options="" />
+      <module name="observer-pattern" options="" />
       <module name="proxy-pattern" options="" />
     </option>
   </component>
